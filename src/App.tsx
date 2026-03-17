@@ -159,7 +159,7 @@ function App() {
           <div className="contact-links">
             <a className="contact-link primary" href="https://github.com/matt-kearney14" target="_blank" rel="noreferrer">GitHub</a>
             <a className="contact-link" href="mailto:kearnma@bc.edu" target="_blank" rel="noreferrer">Email</a>
-            <a className="contact-link" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a className="contact-link" href="/portfolio-website/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
           <div className="contact-divider"></div>
           <p className="contact-footer">Matt Kearney &nbsp;·&nbsp; 2025</p>
