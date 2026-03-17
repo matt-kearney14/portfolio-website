@@ -1,7 +1,8 @@
-
 import './App.css'
 import logo from './assets/logo.png'
 import headshot from './assets/SelfPortraitDigital.jpg'
+import cardArt from './assets/cards.png'
+import gameplayDemo from './assets/pokerDemo.mov'
 
 
 function App() {
@@ -95,6 +96,33 @@ function App() {
                 </ol>
               </div>
             </div>
+
+            {/* ---- MEDIA SHOWCASE ---- */}
+            <div className="project-media-divider"></div>
+            <p className="project-media-label">MEDIA</p>
+            <div className="project-media-grid">
+              <div className="project-media-item">
+                <p className="project-media-caption">CARD ART</p>
+                <div className="project-media-frame">
+                  <img src={cardArt} alt="Bluffin' Birds custom card art" className="project-media-img" />
+                </div>
+              </div>
+              <div className="project-media-item">
+                <p className="project-media-caption">GAMEPLAY DEMO</p>
+                <div className="project-media-frame">
+                  <video
+                    className="project-media-video"
+                    controls
+                    muted
+                    playsInline
+                  >
+                    <source src={gameplayDemo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <div className="project-container">
