@@ -136,16 +136,17 @@ function App() {
             </p>
           </div>
 
-          <div className="project-container">
-            <p className="project-tech">TBD</p>
-            <h1>FUTURE PLANS</h1>
+           <div className="project-container">
+            <p className="project-tech">REACT · TYPESCRIPT · PYTHON</p>
+            <h1>CURRENT PROJECT: EXPECTED VALUE BET EVALUATOR</h1>
             <div className="project-divider"></div>
-            <p>POSSIBLE PROJECTS...</p>
-            <ul>
-              <li>Mobile App (Learn Swift)</li>
-              <li>Web App (Utilize JavaScript)</li>
-              <li>Platformer/Top Down Adventure Game (Unity)</li>
-            </ul>
+            <p>
+              I'm currently working on a project to create a web app that evaluates the expected value of a bet for soccer matches.
+              This project will use past match data to create score probability matrices based on past performances. The probabilities of winning, losing, and tieing will be calculated and used to evaluate the expected value of a bet based on the odds given by TheOdds API. 
+              This project is still in the early stages, but I'm excited to continue working on it and learn more about data analysis and web development.
+            </p>
+            <p>Below is the project plan:</p>
+            <a className="contact-link" href="/portfolio-website/Betting.pdf" target="_blank" rel="noopener noreferrer">Project Plan</a>
           </div>
         </section>
 
