@@ -146,7 +146,7 @@ function App() {
               This project is still in the early stages, but I'm excited to continue working on it and learn more about data analysis and web development.
             </p>
             <p>Below is the project plan:</p>
-            <a className="contact-link" href="/portfolio-website/Betting.pdf" target="_blank" rel="noopener noreferrer">Project Plan</a>
+            <a className="project-link" href="/portfolio-website/Betting.pdf" target="_blank" rel="noopener noreferrer">Project Plan</a>
           </div>
         </section>
 

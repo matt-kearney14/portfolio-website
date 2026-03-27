@@ -395,6 +395,21 @@ hr {
   color: #000;
   border-color: #fff;
 }
+.project-link {
+  background: #000000;
+  color: #ffffff;
+  border-color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
  
 .contact-link.primary:hover {
   background: rgba(255, 255, 255, 0.88);
